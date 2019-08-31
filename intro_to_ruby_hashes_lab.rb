@@ -17,7 +17,7 @@ def monopoly_with_third_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-  {:railroads => {:pieces => 4, :rent_in_dollars => {:one_piece_owned => 25, :two_pieces_owned => 50, :three_pieces_owned => 100, :four_pieces_owned => 200}, :names =>{:reading_railroad => {}, :penssylvania_railroads => {}, :b_and_o_railraods => {}, :shortline => {}}}}
+  {:railroads => {:pieces => 4, :rent_in_dollars => {:one_piece_owned => 25, :two_pieces_owned => 50, :three_pieces_owned => 100, :four_pieces_owned => 200}, :names =>{:reading_railroad => {}, :penssylvania_railroad => {}, :b_and_o_railraods => {}, :shortline => {}}}}
 end
 
 def monopoly_with_fourth_tier
@@ -25,5 +25,5 @@ def monopoly_with_fourth_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-  {:railroads => {:pieces => 4, :rent_in_dollars => {:one_piece_owned => 25, :two_pieces_owned => 50, :three_pieces_owned => 100, :four_pieces_owned => 200}, :names =>{:reading_railroad => {"mortgage_value" => "$100"}, :penssylvania_railroads => {"mortgage_value" => "$250"}, :b_and_o_railraods => {"mortgage_value" => "$400"}, :shortline => {mortgage_value => "$100"}}}}
+  {:railroads => {:pieces => 4, :rent_in_dollars => {:one_piece_owned => 25, :two_pieces_owned => 50, :three_pieces_owned => 100, :four_pieces_owned => 200}, :names =>{:reading_railroad => {"mortgage_value" => "$100"}, :penssylvania_railroad => {"mortgage_value" => "$250"}, :b_and_o_railraods => {"mortgage_value" => "$400"}, :shortline => {mortgage_value => "$100"}}}}
 end
